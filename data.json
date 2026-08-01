@@ -1,0 +1,144 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Porsche 911 GT3 RS",
+      "descricao": "Superesportivo de alta performance com aerodinâmica extrema e motor 4.0 aspirado.",
+      "preco": 2100000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0IBuwCw4XsJwPDtjYSGZnW8UVbnNCN5fW8lA-zyIGwevjRaIbo1_TT4&s=10"
+    },
+    {
+      "id": 2,
+      "nome": "Lamborghini Huracán EVO",
+      "descricao": "Motor V10 aspirado, tração integral e aceleração de 0 a 100 km/h em apenas 2,9s.",
+      "preco": 3800000.00,
+      "img": "https://cdn.motor1.com/images/mgl/NpPnY/s1/lamborghini-huracan-evo-rwd-spyder.webp"
+    },
+    {
+      "id": 3,
+      "nome": "Ferrari F8 Tributo",
+      "descricao": "O auge dos motores V8 bi-turbo da marca do cavalo rampante, com 720 cv de potência.",
+      "preco": 4200000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0xM4eb8G_KuaX-9ByuH7tyVAF1jwVmPp8UHiesJicDoKcrnm9UkuoTJI&s=10"
+    },
+    {
+      "id": 4,
+      "nome": "Mercedes-AMG GT Black Series",
+      "descricao": "Tecnologia de pista homologada para as ruas, com aerodinâmica ativa em fibra de carbono.",
+      "preco": 3200000.00,
+      "img": "https://revistafullpower.com.br/wp-content/uploads/2021/09/me02-1024x576.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Audi R8 V10 Performance",
+      "descricao": "Design agressivo, tração quattro lendária e o ronco inconfundível do motor V10.",
+      "preco": 1650000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYVD8qILZxdJtTjnfhS5_INMI4_YRJTSJadzjz8woG0u2tEc1cmMkxY_Nn&s=10"
+    },
+    {
+      "id": 6,
+      "nome": "BMW M4 Competition",
+      "descricao": "Coupé esportivo com motor de 6 cilindros em linha TwinPower Turbo e 510 cv.",
+      "preco": 820000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGrLfQlJMHqQwMUN-gmUB___xJ7IHXtrQ4zdlzDXrVqqvXX0--wZahVzZe&s=10"
+    },
+    {
+      "id": 7,
+      "nome": "Aston Martin Vantage",
+      "descricao": "Elegância britânica combinada com desempenho brutal do motor V8 bi-turbo AMG.",
+      "preco": 1950000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkci_Nvh-EvM-NH2Cbdn_PwThUCS34IwJOSyzgSYjMj6TVGmN9WoEaZLo&s=10"
+    },
+    {
+      "id": 8,
+      "nome": "McLaren 720S Coupé",
+      "descricao": "Chassi monocoque em fibra de carbono ultraleve e aceleração surreal.",
+      "preco": 3600000.00,
+      "img": "https://s3.ecompletocarros.dev/images/lojas/285/veiculos/270664/veiculoInfoVeiculoImagesMobile/vehicle_image_1766578529_d41d8cd98f00b204e9800998ecf8427e.jpeg"
+    },
+    {
+      "id": 9,
+      "nome": "Nissan GT-R Nismo (Godzilla)",
+      "descricao": "Lenda do automobilismo japonês com sistema de tração inteligente e motor feito à mão.",
+      "preco": 1450000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4FW2N0kTTzF4heSYrUfptJ29DjwBwMhOj3OKbr3_dzfiAxwcNrYf0N0&s=10"
+    },
+    {
+      "id": 10,
+      "nome": "Land Rover Range Rover Evoque",
+      "descricao": "SUV compacto de luxo com design moderno, teto flutuante e tração off-road premium.",
+      "preco": 480000.00,
+      "img": "https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 11,
+      "nome": "Bugatti Chiron Super Sport",
+      "descricao": "O supra-sumo dos hipercarros com motor W16 quad-turbo de 1.600 cv e velocidade surreal.",
+      "preco": 24000000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSptLA9H6Ii_AV8Z3EBvqKnjfaRYrZJI-W0OicK1kghy_cWjogyMY_ShT8&s=10"
+    },
+    {
+      "id": 12,
+      "nome": "Rolls-Royce Phantom",
+      "descricao": "O máximo em conforto ultra-luxuoso, acabamento feito à mão e isolamento acústico perfeito.",
+      "preco": 7500000.00,
+      "img": "https://images.unsplash.com/photo-1631295868223-63265b40d9e4?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 13,
+      "nome": "Porsche Taycan Turbo S",
+      "descricao": "Sedã 100% elétrico de alta performance com aceleração de 0 a 100 km/h em 2,8s.",
+      "preco": 1150000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLWmb8X5veAjwcIPWUSNV4jS08XaFDZJWWnAFXmniej2rJ2OBSJuT-fo2y&s=10"
+    },
+    {
+      "id": 14,
+      "nome": "Chevrolet Corvette Z06",
+      "descricao": "Supercarro americano com motor V8 aspirado de virabrequim plano e ronco de Fórmula 1.",
+      "preco": 1350000.00,
+      "img": "https://cdn.motor1.com/images/mgl/jbGeN/s1/2023-chevrolet-corvette-z06-front-view.webp"
+    },
+    {
+      "id": 15,
+      "nome": "Lamborghini Urus Performante",
+      "descricao": "O Super SUV definitivo com motor V8 bi-turbo de 666 cv e vocação para pistas e terra.",
+      "preco": 4100000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXYavYUJUu5piO514GvI-Gwlit2TRVdx_if7mgLk--T6YsBmBcBjh1vimq&s=10"
+    },
+    {
+      "id": 16,
+      "nome": "Bentley Continental GT",
+      "descricao": "Grand Tourer requintado com motor W12 e interior revestido em couro nobre e madeira.",
+      "preco": 3100000.00,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP2hNwnIgYMbm0YRLRyElBXzIi10DJvNuC9b2j87HCk8R1JhSqkwshJ48&s=10"
+    },
+    {
+      "id": 17,
+      "nome": "Maserati MC20",
+      "descricao": "Esportivo italiano puro com portas borboleta e o inovador motor Nettuno V6 Twin Turbo.",
+      "preco": 2850000.00,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Maserati_MC20_IAA_2021_1X7A0087.jpg/1280px-Maserati_MC20_IAA_2021_1X7A0087.jpg"
+    },
+    {
+      "id": 18,
+      "nome": "Ford Mustang Shelby GT500",
+      "descricao": "O muscle car mais potente da história da Ford, alimentado por um V8 de 760 cv.",
+      "preco": 980000.00,
+      "img": "https://cdn.awsli.com.br/2500x2500/2571/2571273/produto/380473435/aut-73095-01-rzyjqwjvwo.jpg"
+    },
+    {
+      "id": 19,
+      "nome": "Ferrari SF90 Stradale",
+      "descricao": "Hipercarro híbrido plug-in com motor V8 + 3 motores elétricos totalizando 1.000 cv.",
+      "preco": 6900000.00,
+      "img": "https://res.cloudinary.com/unix-center/image/upload/c_limit,dpr_3.0,f_auto,fl_progressive,g_center,h_240,q_auto:good,w_385/fl7hxq9rczontkgsvvw0.jpg"
+    },
+    {
+      "id": 20,
+      "nome": "Audi RS6 Avant Performance",
+      "descricao": "A perua esportiva definitiva com motor V8 bi-turbo de 630 cv e espaço para a família toda.",
+      "preco": 1220000.00,
+      "img": "https://s2-autoesporte.glbimg.com/y8KgwNcGzj1CAqt_bO_jSp4JISM=/0x0:1980x1230/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2023/A/9/Dj5A32QNecX95FBZCvJQ/nova-audi-rs6-avant-performance-frente.jpg"
+    }
+  ]
+}

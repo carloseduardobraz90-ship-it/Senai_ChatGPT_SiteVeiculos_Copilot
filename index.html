@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lux Motors | Veículos de Alta Performance</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .brand-logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-svg {
+            width: 45px;
+            height: 45px;
+            fill: none;
+        }
+        .student-tag {
+            font-size: 11px;
+            color: #2a9d8f;
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="brand-logo-container">
+            <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="42" stroke="#e63946" stroke-width="8" stroke-dasharray="180 40" stroke-linecap="round" />
+                <circle cx="50" cy="50" r="32" stroke="#2a9d8f" stroke-width="4" stroke-dasharray="10 5" />
+                <polygon points="50,50 72,28 65,22" fill="#e63946" />
+                <circle cx="50" cy="50" r="8" fill="#ffffff" />
+            </svg>
+            
+            <div>
+                <span class="student-tag">Projeto Escolar por <div CARLOS="" EDUARDO="" BRAZ=""></div></span>
+                <h1>OS MELHORES <span>VEÍCULOS DE LUXO</span></h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER PRINCIPAL -->
+    <section class="banner">
+        <div class="logo-badge">
+            <span class="brand-title">LUX <span>MOTORS</span></span>
+            <span class="brand-sub">DESENVOLVIDO POR [CARLOS EDUARDO BRAZ]</span>
+        </div>
+        <h2>Exclusividade e Performance na Sua Garagem</h2>
+        <p>A melhor seleção de superesportivos e carros de alto luxo do mercado.</p>
+    </section>
+
+    <!-- CONTAINER PRINCIPAL -->
+    <div class="main-layout">
+        
+        <!-- VITRINE DE CARROS -->
+        <main class="container">
+            <!-- BARRA SUPERIOR DO SHOWROOM COM FILTROS -->
+            <div class="showroom-header">
+                <h3>Showroom de Veículos</h3>
+                
+                <div class="filters-container">
+                    <!-- Filtro de Marca -->
+                    <div class="filter-box">
+                        <label for="brand-select">Marca:</label>
+                        <select id="brand-select">
+                            <option value="todas">Todas as Marcas</option>
+                        </select>
+                    </div>
+
+                    <!-- Filtro de Ordenação -->
+                    <div class="filter-box">
+                        <label for="sort-select">Ordenar por:</label>
+                        <select id="sort-select">
+                            <option value="padrao">Padrão</option>
+                            <option value="menor-preco">Menor Preço</option>
+                            <option value="maior-preco">Maior Preço</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-produtos" id="grid-produtos"></div>
+        </main>
+
+        <!-- SIMULADOR / CARRINHO -->
+        <aside class="cart-box">
+            <h3>Sua Garagem</h3>
+            
+            <ul class="cart-items" id="cart-items"></ul>
+            
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-value">R$ 0,00</span>
+            </div>
+            <button class="btn-checkout" id="btn-checkout">Reservar Veículos</button>
+        </aside>
+
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>&copy; 2026 Os Melhores Veículos de Luxo - Projeto acadêmico desenvolvido por <strong>[CARLOS EDUARDO BRAZ]</strong>.</p>
+    </footer>
+
+    <!-- MODAL DE IMAGEM AMPLIADA -->
+    <div id="image-modal" class="modal">
+        <span class="modal-close" id="modal-close">&times;</span>
+        <img class="modal-content" id="modal-img" alt="Imagem Ampliada">
+        <div id="modal-caption" class="modal-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
