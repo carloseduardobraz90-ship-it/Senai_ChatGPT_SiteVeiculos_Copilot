@@ -1,0 +1,1 @@
+# Senai_ChatGPT_SiteVeiculos_Copilot
